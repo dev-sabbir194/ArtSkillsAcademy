@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "642c155b2c4774f05c36eeaa",
+    "Image": "https://img.freepik.com/free-photo/front-view-smiley-man-blending-different-colors-his-painting_23-2148422201.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "John Doe",
+    "Email": "johndoe@example.com",
+    "About": "John Doe is a talented artist specializing in oil painting. With over 10 years of experience, he has exhibited his artwork in numerous galleries worldwide."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeab",
+    "Image": "https://img.freepik.com/free-photo/front-view-young-male-painter-with-easel-drawing-black-table_140725-144414.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Jane Smith",
+    "Email": "janesmith@example.com",
+    "About": "Jane Smith is a versatile artist skilled in various mediums, including watercolor, charcoal, and digital art. Her passion for creativity is evident in her unique and captivating works."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeac",
+    "Image": "https://img.freepik.com/premium-photo/young-male-artist-drawing-pictures-bright-studio_85869-1210.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Michael Johnson",
+    "Email": "michaeljohnson@example.com",
+    "About": "Michael Johnson is a sculptor known for his ability to breathe life into stone. His sculptures have been featured in prominent art exhibitions, demonstrating his mastery of form and texture."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eead",
+    "Image": "https://img.freepik.com/free-photo/female-artist-painting-studio_1303-11450.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Sarah Williams",
+    "Email": "sarahwilliams@example.com",
+    "About": "Sarah Williams is a skilled ceramic artist, renowned for her intricate pottery designs. Her dedication to detail and craftsmanship is evident in every piece she creates."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeae",
+    "Image": "https://img.freepik.com/free-photo/artist-man-painting-canvas_23-2148422134.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "David Brown",
+    "Email": "davidbrown@example.com",
+    "About": "David Brown is a talented photographer who specializes in capturing the essence of nature and landscapes. His stunning images transport viewers to awe-inspiring locations."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeaf",
+    "Image": "https://img.freepik.com/free-photo/paint-composition-with-female-model_23-2147868276.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Emily Davis",
+    "Email": "emilydavis@example.com",
+    "About": "Emily Davis is a mixed media artist known for her innovative approach. She fearlessly combines different materials and techniques to create visually striking and thought-provoking artworks."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb0",
+    "Image": "https://img.freepik.com/free-photo/happy-artist-studio_23-2148017391.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Daniel Wilson",
+    "Email": "danielwilson@example.com",
+    "About": "Daniel Wilson is a passionate art educator who believes in nurturing creativity in others. He brings his extensive knowledge and enthusiasm to inspire his students to explore their artistic potential."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb1",
+    "Image": "https://img.freepik.com/free-photo/portrait-gorgeous-excited-young-brunette-female-artist-casual-blouse-khaki-color-mixing-oil-paint-palette-using-painting-knife-passionate-about-her-occupation-process-creation_273609-372.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Olivia Moore",
+    "Email": "oliviamoore@example.com",
+    "About": "Olivia Moore is a talented illustrator known for her whimsical and enchanting artwork. Her illustrations have been featured in children's books, capturing the hearts of readers of all ages."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb2",
+    "Image": "https://img.freepik.com/premium-photo/academy-runs-classes-management-leadership-board-game-man-playing-chess-planning-strategy_474717-134419.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "James Taylor",
+    "Email": "jamestaylor@example.com",
+    "About": "James Taylor is a skilled graphic designer with a keen eye for aesthetics. He specializes in creating visually impactful designs that effectively communicate messages and engage viewers."
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb3",
+    "Image": "https://img.freepik.com/free-photo/long-haired-girl-paints-easel_1398-4128.jpg?size=626&ext=jpg&ga=GA1.2.1845470195.1680205699&semt=ais",
+    "Name": "Sophia Anderson",
+    "Email": "sophiaanderson@example.com",
+    "About": "Sophia Anderson is a passionate art historian with a deep understanding of art movements and their cultural significance. She brings a wealth of knowledge to her lectures, enriching students' understanding of art history."
+  }
+]

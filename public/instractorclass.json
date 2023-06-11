@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "642c155b2c4774f05c36eeaa",
+    "Image": "class1.jpg",
+    "Name": "Introduction to Oil Painting",
+    "InstructorName": "John Doe",
+    "AvailableSeats": 10,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeaa",
+    "Image": "class2.jpg",
+    "Name": "Exploring Watercolor Techniques",
+    "InstructorName": "John Doe",
+    "AvailableSeats": 5,
+    "Price": 40
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeaa",
+    "Image": "class3.jpg",
+    "Name": "Portrait Drawing Masterclass",
+    "InstructorName": "John Doe",
+    "AvailableSeats": 8,
+    "Price": 60
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeab",
+    "Image": "class4.jpg",
+    "Name": "Digital Art Fundamentals",
+    "InstructorName": "Jane Smith",
+    "AvailableSeats": 12,
+    "Price": 55
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeab",
+    "Image": "class5.jpg",
+    "Name": "Charcoal Drawing Techniques",
+    "InstructorName": "Jane Smith",
+    "AvailableSeats": 6,
+    "Price": 45
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeab",
+    "Image": "class6.jpg",
+    "Name": "Mixed Media Collage Workshop",
+    "InstructorName": "Jane Smith",
+    "AvailableSeats": 10,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeac",
+    "Image": "class7.jpg",
+    "Name": "Sculpting with Clay",
+    "InstructorName": "Michael Johnson",
+    "AvailableSeats": 8,
+    "Price": 70
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeac",
+    "Image": "class8.jpg",
+    "Name": "Stone Carving Workshop",
+    "InstructorName": "Michael Johnson",
+    "AvailableSeats": 4,
+    "Price": 80
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeac",
+    "Image": "class9.jpg",
+    "Name": "Ceramic Sculpture Intensive",
+    "InstructorName": "Michael Johnson",
+    "AvailableSeats": 6,
+    "Price": 75
+  },
+  {
+    "_id": "642c155b2c4774f05c36eead",
+    "Image": "class10.jpg",
+    "Name": "Wheel Throwing Techniques",
+    "InstructorName": "Sarah Williams",
+    "AvailableSeats": 10,
+    "Price": 60
+  },
+  {
+    "_id": "642c155b2c4774f05c36eead",
+    "Image": "class11.jpg",
+    "Name": "Hand-building with Clay",
+    "InstructorName": "Sarah Williams",
+    "AvailableSeats": 8,
+    "Price": 55
+  },
+  {
+    "_id": "642c155b2c4774f05c36eead",
+    "Image": "class12.jpg",
+    "Name": "Glazing Techniques Workshop",
+    "InstructorName": "Sarah Williams",
+    "AvailableSeats": 5,
+    "Price": 65
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeae",
+    "Image": "class13.jpg",
+    "Name": "Landscape Photography",
+    "InstructorName": "David Brown",
+    "AvailableSeats": 10,
+    "Price": 45
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeae",
+    "Image": "class14.jpg",
+    "Name": "Street Photography Essentials",
+    "InstructorName": "David Brown",
+    "AvailableSeats": 7,
+    "Price": 40
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeae",
+    "Image": "class15.jpg",
+    "Name": "Nature Photography Workshop",
+    "InstructorName": "David Brown",
+    "AvailableSeats": 12,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeaf",
+    "Image": "class16.jpg",
+    "Name": "Experimental Art Techniques",
+    "InstructorName": "Emily Davis",
+    "AvailableSeats": 6,
+    "Price": 55
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeaf",
+    "Image": "class17.jpg",
+    "Name": "Collage Art Workshop",
+    "InstructorName": "Emily Davis",
+    "AvailableSeats": 8,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeaf",
+    "Image": "class18.jpg",
+    "Name": "Abstract Painting Techniques",
+    "InstructorName": "Emily Davis",
+    "AvailableSeats": 4,
+    "Price": 65
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb0",
+    "Image": "class19.jpg",
+    "Name": "Graphic Design Fundamentals",
+    "InstructorName": "Daniel Wilson",
+    "AvailableSeats": 10,
+    "Price": 60
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb0",
+    "Image": "class20.jpg",
+    "Name": "Typography Workshop",
+    "InstructorName": "Daniel Wilson",
+    "AvailableSeats": 5,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb0",
+    "Image": "class21.jpg",
+    "Name": "Logo Design Masterclass",
+    "InstructorName": "Daniel Wilson",
+    "AvailableSeats": 8,
+    "Price": 70
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb1",
+    "Image": "class22.jpg",
+    "Name": "Illustration Techniques",
+    "InstructorName": "Olivia Moore",
+    "AvailableSeats": 6,
+    "Price": 55
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb1",
+    "Image": "class23.jpg",
+    "Name": "Children's Book Illustration",
+    "InstructorName": "Olivia Moore",
+    "AvailableSeats": 10,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb1",
+    "Image": "class24.jpg",
+    "Name": "Character Design Workshop",
+    "InstructorName": "Olivia Moore",
+    "AvailableSeats": 7,
+    "Price": 65
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb2",
+    "Image": "class25.jpg",
+    "Name": "Photoshop Essentials",
+    "InstructorName": "James Taylor",
+    "AvailableSeats": 8,
+    "Price": 55
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb2",
+    "Image": "class26.jpg",
+    "Name": "Logo Design Workshop",
+    "InstructorName": "James Taylor",
+    "AvailableSeats": 12,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb2",
+    "Image": "class27.jpg",
+    "Name": "Visual Branding Techniques",
+    "InstructorName": "James Taylor",
+    "AvailableSeats": 4,
+    "Price": 70
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb3",
+    "Image": "class28.jpg",
+    "Name": "Ancient Art History",
+    "InstructorName": "Sophia Anderson",
+    "AvailableSeats": 10,
+    "Price": 60
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb3",
+    "Image": "class29.jpg",
+    "Name": "Renaissance Art Appreciation",
+    "InstructorName": "Sophia Anderson",
+    "AvailableSeats": 5,
+    "Price": 50
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb3",
+    "Image": "class30.jpg",
+    "Name": "Modern Art Movements",
+    "InstructorName": "Sophia Anderson",
+    "AvailableSeats": 8,
+    "Price": 70
+  }
+]
