@@ -1,0 +1,85 @@
+#title {
+  font-weight: 800;
+  color: #ffffff;
+}
+#description {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.card-title {
+  font-weight: 800;
+  color: #ffffff;
+}
+.card-text {
+  font-weight: 600;
+  color: #ffffff;
+}
+.button {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.salry {
+  font-weight: 600;
+  color: #ffffff;
+}
+.location {
+  font-weight: 600;
+  color: #ffffff;
+}
+#view {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-weight: 800;
+  color: #ffffff;
+}
+#show {
+  background-color: #9873ff;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+#images {
+  margin-left: 25%;
+}
+
+#card {
+  background: #c02424d0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f0cb35ae, #c02424b4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f0cb359d, #c02424a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card {
+  background: #8e0e009f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1f1c1894, #8e0e0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1f1c188e, #8e0e008e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  color: #ffffff;
+}
