@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Row, Col, Table } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import './MyClass.css'
+import "./MyClass.css";
 
 const MyClass = () => {
   const { id } = useParams();
@@ -27,7 +27,7 @@ const MyClass = () => {
   }, [id]);
 
   return (
-    <div className="" style={{marginTop: "120px"}}>
+    <div className="" style={{ marginTop: "120px" }}>
       <Row className="mt-4">
         <Col md={12}>
           <Table striped bordered hover>
