@@ -7,6 +7,8 @@ import NotFound from "../pages/NotFound/NotFound";
 import Dashboard from "../Layout/Dashboard/Dashboard";
 import Instructor from "../Layout/Dashboard/Instructor/Instructor";
 import Courses from "../components/Courses/Courses";
+import Payment from "../components/Payment/Payment";
+import MyClass from "../components/MyClass/MyClass";
 
 
 
@@ -39,6 +41,14 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "//payment/:classId",
+        element: <Payment/>,
+      },
+      {
+        path: "/myclass",
+        element: <MyClass/>,
       },
 
       {

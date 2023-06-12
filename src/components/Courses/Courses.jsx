@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Courses.css";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -8,12 +8,15 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 const Courses = () => {
   const [numOfCardsToShow, setNumOfCardsToShow] = useState(6);
   const [filteredJobData, setFilteredJobData] = useState([]);
-  const { category } = useParams();
+  
+  
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/classes");
+        const response = await fetch(
+          "https://assignment-12-client-side-server.vercel.app/classes"
+        );
         const data = await response.json();
         setFilteredJobData(data);
       } catch (error) {
@@ -28,9 +31,14 @@ const Courses = () => {
     setNumOfCardsToShow(12);
   };
 
+  const handleBuyClass = (classId) => {
+    // Route to the payment page with the classId as a URL parameter
+    window.location.replace(`/payment/${classId}`);
+  };
+
   return (
-    <div className="home-body bg-black pb-5 pt-5" style={{marginTop: "83px", }}>
-      <div className="container mb-5 ">
+    <div className="home-body bg-black pb-5 pt-5" style={{ marginTop: "83px" }}>
+      <div className="container mb-5">
         <h3 className="text-center mt-5" id="title">
           All Classes
         </h3>
@@ -73,11 +81,14 @@ const Courses = () => {
                       <img src={card.dolarIcon} alt="" /> {card.Price}
                     </p>
                   </div>
-                  <Link to="/allrecipes">
-                    <button type="button" className="btn btn-info" id="view">
-                      View Recipes
-                    </button>
-                  </Link>
+                  <button
+                    type="button"
+                    className="btn btn-info"
+                    id="view"
+                    onClick={() => handleBuyClass(card._id)}
+                  >
+                    Buy Class
+                  </button>
                 </div>
               </div>
             </div>
@@ -91,7 +102,7 @@ const Courses = () => {
               id="show"
               onClick={showMoreCards}
             >
-              See All Chef
+              See All Class
             </button>
           </div>
         )}

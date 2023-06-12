@@ -1,0 +1,50 @@
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.login-text {
+  margin-bottom: 10px;
+}
+
+.google-button {
+  width: 100%;
+  background: #000;
+}
+.google-button:hover {
+  background: #0000006f;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-text {
+  margin-bottom: 0;
+}
+
+.register-link a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+
+.google{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.g-text{
+    font-weight: 700;
+    color: ;
+}

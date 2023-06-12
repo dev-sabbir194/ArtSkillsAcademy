@@ -35,7 +35,7 @@ const NewCourse = () => {
   const currentDealData = deals[currentDeal];
 
   return (
-    <div className="banner">
+    <div className="banner home-bg">
       <Container>
         <h1 className="text-center mb-5 bg-black" id="header-text">
           New Courses

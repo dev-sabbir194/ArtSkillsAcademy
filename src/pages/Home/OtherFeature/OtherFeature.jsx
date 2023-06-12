@@ -33,8 +33,8 @@ const OtherFeature = () => {
                   as low as $.17 each."
             ></SectionTitle>
             {features.map((feature) => (
-              <div className="col-lg-4 col-md-6" key={feature._id}>
-                <div className="other-feature-item">
+              <div className="col-lg-4 col-md-6 " key={feature._id}>
+                <div className="other-feature-item bg-oth">
                   <i className="ti-key"></i>
                   <h4>{feature.Heading}</h4>
                   <div>

@@ -51,14 +51,14 @@ const NavBar = () => {
   };
 
   return (
-    <div >
+    <div>
       <header className={`default-header ${navbarBg}`}>
         <nav
           className={`navbar navbar-expand-lg navbar-light ${navbarBg} fixed-top bg-black`}
         >
           <div className="container">
-            <a className="navbar-brand" href="index.html">
-              <img src="img/logo.png" alt="" />
+            <a className="navbar-brand" href="/">
+              <h1 className="text-white">ArtSkillsAcademy</h1>
             </a>
             <button
               className="navbar-toggler"
@@ -77,7 +77,7 @@ const NavBar = () => {
             >
               <ul className="navbar-nav">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
                   <Link to="/">About</Link>
@@ -88,40 +88,6 @@ const NavBar = () => {
                   </a>
                 </li>
 
-                <li className="dropdown">
-                  <a
-                    className="dropdown-toggle"
-                    href="#"
-                    data-toggle="dropdown"
-                  >
-                    Pages
-                  </a>
-                  <div className="dropdown-menu">
-                    <a className="dropdown-item" href="elements.html">
-                      Elements
-                    </a>
-                    <a className="dropdown-item" href="course-details.html">
-                      Course Details
-                    </a>
-                  </div>
-                </li>
-                <li className="dropdown">
-                  <a
-                    className="dropdown-toggle"
-                    href="#"
-                    data-toggle="dropdown"
-                  >
-                    Blog
-                  </a>
-                  <div className="dropdown-menu">
-                    <a className="dropdown-item" href="blog-home.html">
-                      Blog Home
-                    </a>
-                    <a className="dropdown-item" href="blog-single.html">
-                      Blog Details
-                    </a>
-                  </div>
-                </li>
                 {isLoggedIn ? (
                   <>
                     <li>

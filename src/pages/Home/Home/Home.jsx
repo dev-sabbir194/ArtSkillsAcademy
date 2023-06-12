@@ -10,7 +10,7 @@ import NewCourse from "../../../components/NewCourse/NewCourse";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-bg">
       <Banner/>
       <Feature/>
       <PopularCourses/>

@@ -1,14 +1,22 @@
 import { useState, useEffect } from "react";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import {
+  GoogleAuthProvider,
+  signInWithPopup,
+  getAuth,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 import { Link } from "react-router-dom";
 import app from "../../../firebase/firebase.init";
 import Swal from "sweetalert2";
+import { Button } from "react-bootstrap";
+import './Login.css'
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const auth = getAuth(app);
+    const provider = new GoogleAuthProvider();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -45,6 +53,35 @@ const Login = () => {
       });
     }
   };
+
+
+
+const handleSignInWithGoogle = () => {
+  signInWithPopup(auth, provider)
+    .then((result) => {
+      const user = result.user;
+      console.log(user);
+
+      const photoUrl = user.photoURL;
+
+      Swal.fire({
+        icon: "success",
+        title: "Login Successful",
+        text: "Logged in successfully!",
+      }).then(() => {
+        localStorage.setItem("userEmail", user.email);
+
+        // Save the profile picture URL in local storage
+        localStorage.setItem("photoUrl", photoUrl);
+
+        window.location.replace("/");
+      });
+    })
+    .catch((error) => {
+      console.log("error", error.message);
+    });
+};
+
 
   return (
     <div>
@@ -110,6 +147,21 @@ const Login = () => {
                     </p>
                   </div>
                 </form>
+
+                <div className="login-options">
+                  <p className="login-text">Or login with:</p>
+                  <Button
+                    className="google-button"
+                    onClick={handleSignInWithGoogle}
+                  >
+                    <img
+                      className="google"
+                      src="https://drive.google.com/uc?id=1LoLyVAwrJA1vwlG9U2yeNV2bru47JpSw"
+                      alt=""
+                    />
+                    <span className="g-text"> Google Sign-in</span>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

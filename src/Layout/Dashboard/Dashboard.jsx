@@ -30,14 +30,22 @@ const Dashboard = () => {
   };
 
 const handleRoleSelection = async (role) => {
+  if (!selectedRole) {
+    console.error("No user selected");
+    return;
+  }
+
   setSelectedUserRole(role);
   console.log(`Set role ${role} for user ${selectedRole}`);
 
   try {
     // Update user role on the server
-   await axios.put(`http://localhost:5000/register/${selectedRole}/role`, {
-     role: role,
-   });
+    await axios.put(
+      `https://assignment-12-client-side-server-dev-sabbir194.vercel.app/register/${selectedRole}/role`,
+      {
+        role: role,
+      }
+    );
 
     console.log(`Updated role for user ${selectedRole}`);
 
@@ -67,7 +75,9 @@ const handleRoleSelection = async (role) => {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`http://localhost:5000/register/${userId}`);
+          await axios.delete(
+            `https://assignment-12-client-side-server-dev-sabbir194.vercel.app/register/${userId}`
+          );
           console.log(`Deleted user ${userId}`);
           // Update the users state by filtering out the deleted user
           setUsers(users.filter((user) => user._id !== userId));
@@ -82,7 +92,9 @@ const handleRoleSelection = async (role) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/register");
+        const response = await axios.get(
+          "https://assignment-12-client-side-server-dev-sabbir194.vercel.app/register"
+        );
         const userData = response.data;
         setUsers(userData);
       } catch (error) {
